@@ -10,8 +10,11 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
+      - href: blog/index.qmd
+        text: Blog
       - href: enquiry.qmd
         text: Enquiry
+
   page-footer:
     left: "© 2025 Reina's Data Studio"
     center:

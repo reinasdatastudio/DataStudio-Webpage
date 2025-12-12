@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "enquiry.html",
-    "href": "enquiry.html",
-    "title": "Enquiry",
-    "section": "",
-    "text": "Please fill in the form below and I’ll get back to you shortly.\nMeanwhile check out my blog post, YouTube or Instagram!\n\n\n\n\n\n\n\n\n First Name  \n Last Name  \n Email  \n Message\n\n\n\nSend"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -82,6 +75,41 @@
     "title": "Data Science Project: Predicting Prices of Diamond using dataset from R library",
     "section": "Random Forest Evaluation",
     "text": "Random Forest Evaluation\n\nrf_pred &lt;- predict(rf_model, data = test)$predictions\nrmse_rf &lt;- rmse(obs, rf_pred)\nr2_rf &lt;- 1 - sum((obs - rf_pred)^2) / sum((obs - mean(obs))^2)\nrmse_rf; r2_rf\n\n[1] 600.003\n\n\n[1] 0.9774949\n\nimportance(rf_model)\n\n       carat          cut        color      clarity \n134362873572   1263539745   4621682773   7710461114 \n\n\nRandom Forest showed r-squared value of 0.977 which is higher than that of linear regression (0.961). RMSE (Root means squared error) was also lower for Random Forest, meaning that this model predicts the price better.\n\nConclusions\n\n\nCarat is the strongest predictor of diamond price.\nCut, color, and clarity refine predictions.\nIn this case where the null hypothesis of constant variance was rejected, Random Forest performed better in accurate predictions of prices."
+  },
+  {
+    "objectID": "enquiry.html",
+    "href": "enquiry.html",
+    "title": "Enquiry",
+    "section": "",
+    "text": "Please fill in the form below and I’ll get back to you shortly.\nMeanwhile check out my blog post, YouTube or Instagram!\n\n\n\n\n\n\n\n\n\n First Name  \n Last Name  \n\n Email  \n Message\n\n\n\nSend"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Expert R Solutions for Your Data.",
+    "section": "",
+    "text": "I was a pharmacist before I discovered data science. Now I use my unique skills to assist anyone from scientists to students understand data using R.\nR is a programming language specialising in data analysis. It produces beautiful graphs, tables and can create live dashboards."
+  },
+  {
+    "objectID": "index.html#services",
+    "href": "index.html#services",
+    "title": "Expert R Solutions for Your Data.",
+    "section": "Services",
+    "text": "Services\n\n\n\nData Cleaning\n\n\n\nData Visualisation\n\n\n\nStatistical Analysis Assistance\n\n\n\nForecasting\n\n\n\nProvide code chunks\n\n\n\nCreate dashboard\n\n\n\nCreate R markdown\n\n\n\nR tutorial available on YouTube\n\n\nand many other offers available!"
+  },
+  {
+    "objectID": "index.html#check-out-my-youtube-tutorials-on-r",
+    "href": "index.html#check-out-my-youtube-tutorials-on-r",
+    "title": "Expert R Solutions for Your Data.",
+    "section": "Check out my YouTube tutorials on R",
+    "text": "Check out my YouTube tutorials on R"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Expert R Solutions for Your Data.",
+    "section": "Contact",
+    "text": "Contact\nPlease don’t hesitate to contact me for any enquiries, suggestion or questions.\n\nreinasdatastudio@gmail.com\n\nor fill in the form in the enquiry tab."
   },
   {
     "objectID": "projects/Hypertension-clinical-tx.html",

@@ -15,7 +15,7 @@ R is a programming language specialising in data analysis. It produces beautiful
 
 ## Services
 
-:::::::::::: card-container
+:::: card-container
 ::: card
 {{< fa broom size=3x >}}
 
@@ -67,7 +67,7 @@ R tutorial available on YouTube
 ::: {#lastcard .card}
 and many other offers available!
 :::
-::::::::::::
+::::
 
 ## Check out my YouTube tutorials on R
 

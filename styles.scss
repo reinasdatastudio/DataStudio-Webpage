@@ -147,15 +147,16 @@ h2 {
 
 .enquiry-page {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-content: space-evenly;
+  align-content: center;
 }
 
-.enquiry-left {
-  width: 48%;
-  flex-direction: column;
-  padding-top: 10%;
+.enquiry-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5% 0;
 }
 
 .enquiry-icons a {
@@ -168,8 +169,26 @@ h2 {
   flex-direction: column;
   border-radius: 10px;
   border: 1px solid #00a9be;
-  padding: 20px;
+  padding: 20px 10%;
   background-color: #ffffff;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+label {
+  width: 100%;
+}
+
+.name p {
+  width: 45%;
+}
+
+input {
+  width: 100%;
 }
 
 textarea {
@@ -203,5 +222,12 @@ button p {
   .enquiry-page {flex-direction: column;}
   
   .enquiry-left {width: 100%; padding-bottom: 5%;}
+  
+  .name {
+    flex-direction: column;
+  }
+  .name p {
+    width: 100%;
+  }
   
 }
